@@ -14,7 +14,7 @@ public class Average {
             } else {
                 geoAverage = myArray[i];
             }
-            System.out.println("myArray = " + myArray[i]);
+            System.out.println("myArray "+i+" is " + myArray[i]);
         }
         arAverage = arAverage / 400;
         System.out.println("arAverage = " + arAverage);

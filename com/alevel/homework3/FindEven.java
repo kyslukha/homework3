@@ -6,7 +6,7 @@ public class FindEven {
         for (int i = 0; i < 10; i++) {
             myArray[i] = 1 + (int) (Math.random() * 126);
             if (myArray[i] % 2 == 0) myArray[i] = 0;
-            System.out.println("myArray[i] = " + myArray[i]);
+            System.out.println("myArray "+i+" is " + myArray[i]);
         }
     }
 }

@@ -6,7 +6,7 @@ public class SimpleNumber {
         int simple = 0;
         for (int i = 0; i < 1000; i++) {
             myArray[i] = 1 + (int) (Math.random() * 126);
-            System.out.println("myArray[i] = " + myArray[i]);
+            System.out.println("myArray "+i+" is " + myArray[i]);
             if (myArray[i] == 1) {
                 simple = simple + 1;
             } else {
